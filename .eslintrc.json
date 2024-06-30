@@ -14,11 +14,13 @@
 	"plugins": ["prefer-arrow-functions", "autofix"],
 	"rules": {
 		// JS
+		"no-new": "off",
 		"default-case": "off",
 		"curly": ["error", "all"],
 		"no-case-declarations": "error",
 
 		// TS
+		"@typescript-eslint/unbound-method": "off",
 		"@typescript-eslint/strict-boolean-expressions": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
 
